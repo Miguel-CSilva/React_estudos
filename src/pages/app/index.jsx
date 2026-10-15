@@ -17,6 +17,7 @@ export default function App() {
         <input type='text'></input>
         <Link to='/contato' className='link'>Vá para contato</Link>
         <Link to='/eventos' className='link'>Página Eventos</Link>
+        <Link to='/varEstado' className='link'>Página de Variáveis de Estado</Link>
       </section>
       
     </div>
