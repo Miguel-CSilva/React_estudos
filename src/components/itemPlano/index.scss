@@ -1,0 +1,29 @@
+.comp-item-plano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 220px;
+    padding: 20px 20px 60px 20px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 10px 2px rgb(211, 211, 211);
+
+    .cor {
+        border-radius: 20px;
+        width: 50px;
+        height: 40px;
+        background-color: rgb(84, 230, 103);
+    }
+
+    h1 {
+        font: 500 20px/30px 'lexend';
+        margin: 0px;
+        text-align: center;
+    }
+
+    h2 {
+        font: 500 15px/30px 'lexend';
+        text-align: center;
+    }
+    
+}

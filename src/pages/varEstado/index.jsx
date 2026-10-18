@@ -1,4 +1,5 @@
 import './index.scss';
+import Cabecalho from '../../components/cabecalho/index.jsx';
 import { useState } from 'react';
 
 import { tratarNumero } from '../../utils/conversao.js';
@@ -115,9 +116,7 @@ export default function VarEstado() {
 
     return (
         <div className='pagina-varestado pagina' style={{ backgroundColor: cor }}>
-            <header className='cabecalho'>
-                <h1>React | Variável de Estado</h1>
-            </header>
+            <Cabecalho titulo = 'React JS | Variável de Estado'/>
 
             <div className="secao planos">
                 <h1>Meu planos atuais</h1>

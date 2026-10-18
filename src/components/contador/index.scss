@@ -1,0 +1,59 @@
+.comp-contador {
+    border: 1px solid rgb(206, 206, 206);
+    padding: 20px;
+    display: inline-block;
+    margin: 0px 10px;
+    border-radius: 5px;
+
+    .botoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font: 'Lexend';
+        margin-bottom: 30px;
+
+        button {
+            height: 50px;
+            width: 80px;
+            font: 'lexend';
+            border: none;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.082);
+
+            &:hover {
+                height: 50px;
+                width: 80px;
+                font: 'lexend';
+                border: none;
+                background-color: rgb(87, 87, 87);
+                color: white;
+                border-radius: 5px;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.082);
+            }
+        }
+
+    }
+
+    button {
+        height: 50px;
+        width: 80px;
+        font: 'lexend';
+        border: none;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.082);
+
+        &:hover {
+            height: 50px;
+            width: 80px;
+            font: 'lexend';
+            border: none;
+            background-color: rgb(87, 87, 87);
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.082);
+        }
+    }
+}
