@@ -1,0 +1,43 @@
+.comp-cartao-filme {
+    padding: 15px;
+    box-shadow: 0px 0px 20px rgb(175, 175, 175);
+    border-radius: 15px;
+    width: 150px;
+    position: relative;
+
+    img {
+        width: 120px;
+    }
+
+    p {
+        font: 500 15px 'Lexend';
+        text-align: center;
+    }
+
+    .classificacao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        font: 600 10px 'Lexend';
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .c-l {
+        background-color: rgb(21, 172, 1);
+    }
+    .c-12, .c-14 {
+        background-color: rgb(207, 221, 76);
+    }
+    .c-16 {
+        background-color: rgb(182, 26, 26);
+    }
+    .c-18 {
+        background-color: rgb(0, 0, 0);
+    }
+}
