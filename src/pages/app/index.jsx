@@ -15,6 +15,7 @@ export default function App() {
         <Link to='/eventos' className='link'>Página Eventos</Link>
         <Link to='/varEstado' className='link'>Página de Variáveis de Estado</Link>
         <Link to='/componentes' className='link'>Componentes</Link>
+        <Link to='/chamadaapi' className='link'>Chamada API</Link>
       </section>
       
     </div>
